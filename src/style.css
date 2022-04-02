@@ -37,12 +37,14 @@ ul {
     float:right;
     display: block;
     font-style: italic;
-
+    position:fixed;
+    right: 5%;
 }
 
 nav li {
     display:inline;
     text-decoration: underline;
+    background-color: white;
 }
 
 a, a:hover, a:visited, a:active {
@@ -53,7 +55,7 @@ a, a:hover, a:visited, a:active {
 .container {
     width: 100%;
     clear:both;
-    max-width: 50rem;
+    max-width: 60rem;
 }
 
 .container h2 {
@@ -74,11 +76,26 @@ a, a:hover, a:visited, a:active {
 }
 .garment-imgs {
     margin-top: 1rem;
-	columns: 3 10rem;
+	columns: 4 15rem;
 	column-gap: 1rem;
 }
 .garment-imgs img {
 	margin: 0 0.5rem 0.5rem 0;
 	/* display:inline-block; */
     width: 100%;
+}
+
+body {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
