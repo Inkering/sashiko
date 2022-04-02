@@ -3,5 +3,8 @@
     "cssnano": "^5.1.7",
     "parcel": "^2.4.1",
     "postcss": "^8.2.15"
+  },
+  "dependencies": {
+    "medium-zoom": "^1.0.6"
   }
 }
