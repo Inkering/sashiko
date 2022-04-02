@@ -25,6 +25,16 @@ html {
     font-style: italic;
 }
 
+.smallsquiggle {
+    width: 3rem;
+}
+
+.test {
+    width: 100%;
+}
+
+
+
 ul {
     float:right;
     display: block;
@@ -52,6 +62,7 @@ a, a:hover, a:visited, a:active {
     font-style: italic;
     font-weight: 400;
     font-size: 1rem;
+    margin-bottom: 0;
 }
 
 .garment-imgs {
