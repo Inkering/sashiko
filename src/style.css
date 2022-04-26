@@ -59,12 +59,12 @@ a, a:hover, a:visited, a:active {
     max-width: 60rem;
 }
 
-.container h2 {
+h2 {
     font-style: italic;
     font-weight: 400;
     font-size: 1rem;
 }
-.garment h2 {
+h2 {
     padding-bottom: 7px;
     display:inline;
     content: '';
